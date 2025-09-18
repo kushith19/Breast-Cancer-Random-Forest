@@ -9,8 +9,6 @@ This project uses **Logistic Regression** and **Random Forest** to predict breas
 - Confusion Matrix, ROC curve, Feature Importance
 - Streamlit app for quick demo
 
-### Run Locally
-git clone https://github.com/YOURNAME/breast-cancer-ml.git
-cd breast-cancer-ml-yourname
-pip install -r requirements.txt
-python main.py
+### deployed link on streamlit
+https://breast-cancer-random-forest-hryc2actsqipurjvdlxsrb.streamlit.app/
+
