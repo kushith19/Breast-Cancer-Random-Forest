@@ -27,7 +27,7 @@ def plot_roc(model, X_test, y_test, title):
 def plot_feature_importance(model, feature_names):
     if hasattr(model, "feature_importances_"):
         importances = model.feature_importances_
-        indices = importances.argsort()[::-1][:10]  # top 10
+        indices = importances.argsort()[::-1][:10]  
 
         plt.figure(figsize=(6, 4))
         sns.barplot(x=importances[indices], y=[feature_names[i] for i in indices])
